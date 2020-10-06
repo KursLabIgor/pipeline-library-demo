@@ -5,6 +5,7 @@ def info(message) {
 }
 
 def warning(message) {
+    info("script")
     echo "WARNING: ${message}"
 }
 
