@@ -1,11 +1,12 @@
 #!/usr/bin/env groovy
 
-def chekJq(){
+def checkJq(){
 
- jqResult = sh (script:
+    jqResult = sh (script:
             """
             #!/usr/bin/env bash
-            jq
+            jq --version
             """, returnStdout: true)
+
     return jqResult
 }
