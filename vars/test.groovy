@@ -12,6 +12,6 @@ def checkJq(){
 }
 
 def call_func(){
-    checkJq()
+    echo checkJq()
     echo "Hello"
 }
