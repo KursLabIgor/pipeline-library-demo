@@ -10,3 +10,8 @@ def checkJq(){
 
     return jqResult
 }
+
+def call_func(){
+    checkJq()
+    echo "Hello"
+}
